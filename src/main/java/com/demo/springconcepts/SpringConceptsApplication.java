@@ -17,8 +17,8 @@ public class SpringConceptsApplication {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Spring Concept Demo");
 		//logger.debug("Welcome to Spring Concept Demo");
-		//ApplicationContext context = SpringApplication.run(SpringConceptsApplication.class, args);
-		//System.out.println("Checking Context: {} " +context.getBean(DemoBean.class));
+		ApplicationContext context = SpringApplication.run(SpringConceptsApplication.class, args);
+		System.out.println("Checking Context: {} " +context.getBean(DemoBean.class));
 		//logger.debug("Checking Context: {} ",context.getBean(DemoBean.class));
 		//logger.debug("\n*** Example Using @Autowire annotation on property *** ");
 		/*EmployeeBean employeeBean = context.getBean(EmployeeBean.class);
