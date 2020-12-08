@@ -1,4 +1,4 @@
-/*package com.demo.springconcepts.component;
+package com.demo.springconcepts.component;
 
 import org.springframework.stereotype.Component;
 //command + . on the variable for getter setter
@@ -14,4 +14,4 @@ public class DepartmentBean {
         this.deptName = deptName;
     }
 
-}*/
+}

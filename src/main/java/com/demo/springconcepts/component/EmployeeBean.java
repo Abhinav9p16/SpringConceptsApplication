@@ -1,4 +1,4 @@
-/*package com.demo.springconcepts.component;
+package com.demo.springconcepts.component;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -54,4 +54,4 @@ public class EmployeeBean {
         logger.debug("Department : {} ",deptBean.getDeptName());
 
     }   
-}*/
+}

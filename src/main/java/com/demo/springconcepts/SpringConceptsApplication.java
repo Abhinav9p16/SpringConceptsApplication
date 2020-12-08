@@ -2,7 +2,7 @@ package com.demo.springconcepts;
 
 
 import com.demo.springconcepts.component.DemoBean;
-//import com.demo.springconcepts.component.EmployeeBean;
+import com.demo.springconcepts.component.EmployeeBean;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,9 +19,9 @@ public class SpringConceptsApplication {
 		ApplicationContext context = SpringApplication.run(SpringConceptsApplication.class, args);
 		logger.debug("Checking Context: {} ",context.getBean(DemoBean.class));
 		logger.debug("\n*** Example Using @Autowire annotation on property *** ");
-		/*EmployeeBean employeeBean = context.getBean(EmployeeBean.class);
+		EmployeeBean employeeBean = context.getBean(EmployeeBean.class);
 		employeeBean.setEid(104);
 		employeeBean.setEname("Spring Framework Guru");
-		employeeBean.showEmployeeDetails();*/
+		employeeBean.showEmployeeDetails();
 	}
 }
